@@ -1,0 +1,19 @@
+.menu-bar {
+  color: $nav-menu;
+  padding: 20px 0;
+  background: #fff;
+}
+
+.menu__item {
+  margin-left: 37px;
+}
+
+.menu__item a {
+  font-family: 'Open Sans SemiBold', sans-serif;
+  font-size: 20px;
+  color: $nav-menu;
+  &:hover {
+    text-decoration: none;
+    color: #868686;
+  }
+}

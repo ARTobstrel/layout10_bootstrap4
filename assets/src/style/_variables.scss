@@ -2,5 +2,16 @@
 
 $red:     #cc2eaa;
 $green:   #2ecc71;
+$nav-menu: #212121;
 
 $grid-columns: 12;
+
+body {
+  background: gray;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
