@@ -7,11 +7,40 @@ $nav-menu: #212121;
 $grid-columns: 12;
 
 body {
-  background: gray;
+  font-family: "Open Sans", sans-serif;
 }
 
 ul, li {
   display: block;
   padding: 0;
   margin: 0;
+}
+
+.button {
+  padding: 10px 25px;
+  margin: 0 10px;
+  color: $white;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  
+}
+
+.button_empty {
+  background: transparent;
+  border: 2px solid $white;
+  &:hover {
+    background: #888888;
+  }
+}
+
+.button_full {
+  background: #00897b;
+  border: 2px solid #00897b;
+  &:hover {
+    background: #04574e;
+  }
 }

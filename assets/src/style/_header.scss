@@ -17,3 +17,25 @@
     color: #868686;
   }
 }
+
+.header {
+  background: url("../img/header-bg.png");
+  background-position: 0 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  & > div {
+    color: $white;
+    text-align: center;
+    padding: 240px 0;
+  }
+  &__title {
+    font-family: 'Open Sans SemiBold', sans-serif;
+    font-size: 60px;
+    letter-spacing: 3px;
+  }
+  &__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+  }
+}
