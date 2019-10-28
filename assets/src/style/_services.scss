@@ -1,0 +1,44 @@
+.services {
+  background-color: #e4fdf9;
+  & > div {
+    color: $black;
+    text-align: center;
+    padding: 165px 0 120px;
+  }
+  &__card {
+    margin-bottom: 30px;
+    background-color: $white;
+    padding: 50px 25px 40px;
+    transition: .3s;
+    &:hover {
+      background-color: #00897b;
+      color: $white;
+      box-shadow: 0 10px 12px -3px rgba(0,0,0,0.26);
+      .services__icon {
+        color: $white;
+      }
+      .services__btn {
+        border: 2px solid $white;
+        color: $white;
+      }
+    }
+  }
+  &__icon {
+    transition: .3s;
+    font-size: 60px;
+    color: $black;
+  }
+  &__btn {
+    margin-top: 40px;
+    text-transform: uppercase;
+    border: 2px solid $black;
+    background: transparent;
+    padding: 14px 12px;
+    font-size: 20px;
+    font-family: 'Open Sans SemiBold', sans-serif;
+    letter-spacing: 1px;
+    transition: .3s;
+    cursor: pointer;
+  }
+}
+
