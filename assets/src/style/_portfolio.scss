@@ -1,0 +1,30 @@
+.portfolio {
+  & > div {
+    padding: 125px 0 135px;
+    color: $black;
+    text-align: center;
+  }
+  &__btn {
+    font-family: 'Open Sans SemiBold', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 16px 25px;
+    border: 2px solid #00897b;
+    background-color: inherit;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    &:hover {
+      background-color: #00897b;
+      color: $white;
+    }
+  }
+  &__images {
+    margin-top: 120px;
+  }
+  img {
+
+  }
+}
