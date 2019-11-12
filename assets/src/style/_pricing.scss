@@ -1,0 +1,18 @@
+.pricing {
+  background-color: #f0f1f1;
+  & > div {
+    padding: 120px 0;
+    color: $black;
+    text-align: center;
+  }
+  &__title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  &__text {
+    font-size: 15px;
+    margin-bottom: 110px;
+    color: #212121;
+  }
+}
